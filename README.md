@@ -26,36 +26,52 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Prerequisites
+
+- Redis installed in your machine:
+``` bash
+$ docker run -d -p 6379:6379 -i -t redis:3.2.5-alpine
+```
+
+- Create an account on: [Ethereal Email](https://ethereal.email)
+
+- Create ".env" file on root directory with Ehereal info:
+```
+MAILER_HOST="***"
+MAILER_PORT=***
+MAILER_USER="***"
+MAILER_PASS="***"
+```
 ## Installation
 
 ```bash
-$ npm install
+$ yarn install
 ```
 
 ## Running the app
 
 ```bash
 # development
-$ npm run start
+$ yarn run start
 
 # watch mode
-$ npm run start:dev
+$ yarn run start:dev
 
 # production mode
-$ npm run start:prod
+$ yarn run start:prod
 ```
 
 ## Test
 
 ```bash
 # unit tests
-$ npm run test
+$ yarn run test
 
 # e2e tests
-$ npm run test:e2e
+$ yarn run test:e2e
 
 # test coverage
-$ npm run test:cov
+$ yarn run test:cov
 ```
 
 ## Support
