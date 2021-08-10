@@ -33,7 +33,7 @@ export class SendMailConsumer {
         await this.mailerService.sendMail({
             to: email,
             from: "Liam's Tech",
-            subject: "Verify your email",
+            subject: "Verify your email <teste@email.com>",
             text: `Hello ${name}, verify you email plis`
         });
     }
