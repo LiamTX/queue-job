@@ -57,3 +57,8 @@ $ yarn run start
 # watch mode
 $ yarn run start:dev
 ```
+
+- To access admin queue route:
+```
+'http://localhost:3000/admin/queues'
+```
