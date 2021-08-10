@@ -58,6 +58,15 @@ $ yarn run start
 $ yarn run start:dev
 ```
 
+## Routes
+- Proccess routes:
+```
+POST - 'http://localhost:3000/create-user'
+```
+```
+POST - 'http://localhost:3000/create-user/batch'
+```
+
 - To access admin queue route:
 ```
 'http://localhost:3000/admin/queues'
